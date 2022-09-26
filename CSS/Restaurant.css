@@ -7,18 +7,20 @@
 
 .main {
     background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .restaurant-container {
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
-    align-self: center;
-
-    
+  
 }
 
 .heading-restaurant {
+    background-color: #f2f2f2;
     padding-left: 30px;
     font-weight: bold;
     font-size: xx-large;
@@ -33,6 +35,12 @@
     padding-left: 30px;
     padding-right: 30px;
 
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .tile {
