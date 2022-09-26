@@ -1,0 +1,75 @@
+@media screen and (min-width: 1200px) {
+
+* {
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main {
+    background-color: #f2f2f2;
+}
+
+.restaurant-container {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    
+}
+
+.tile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 5px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 500px;
+    border-radius: 15px;
+    padding-bottom: 30px;
+}
+
+img.restaurant {
+    object-fit: cover;
+    height: 100%;
+    width: 500px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+
+.details-container {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    row-gap: 30px;
+}
+
+.tile-title {
+    font-weight: bold;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.city {
+    font-weight: bold;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.like-empty {
+    font-size: xx-large;
+    padding-top: 8px;
+    padding-right: 8px;
+}
+
+}    
