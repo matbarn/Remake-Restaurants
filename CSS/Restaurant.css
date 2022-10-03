@@ -6,6 +6,42 @@
     color: #000;
 }
 
+.logo {
+    width: 200px;
+    height: 100%;
+}
+
+.explore-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.explore-title {
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.description-text {
+    text-align: center;
+}
+
+.explore-button {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%);
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+}
+
 .guide-menu {
     display: flex;
     flex-direction: column;
