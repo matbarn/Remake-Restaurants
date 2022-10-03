@@ -89,8 +89,23 @@
 
 
 .fa-mobile-screen-button {
-    color: #b2aeb8;
+    color: #3d3a3a38;
     padding-left: 15px;
+}
+
+.fa-ellipsis-vertical {
+    color: #3d3a3a38;
+    padding-left: 15px;   
+}
+
+.fa-bars {
+    color: #3d3a3a38;    
+}
+
+.fa-store {
+    color: #3d3a3a38;
+    padding-left: 15px;   
+
 }
 
 .button-text {
