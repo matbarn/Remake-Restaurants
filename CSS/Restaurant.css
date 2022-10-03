@@ -2,9 +2,99 @@
 
 * {
     margin: 0px;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
+    font-family: 'Roboto', sans-serif;    text-decoration: none;
     color: #000;
+}
+
+.guide-menu {
+    display: flex;
+    flex-direction: column;
+    column-gap: 25px;
+    align-items: center;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+.how-heading {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.How-it-works-button {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    background-color: #f2f2f2;
+    width: 275px;
+    height: 75px;
+    padding-left: 20px;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;    
+}
+
+.fa-1 {
+    color: #ffffff;
+    background-color: #9356DC;
+    position: absolute;
+    font-size: large;
+    left: -14px;
+    top: 24px;
+    padding-left: 11px;
+    padding-right: 11PX;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 100px;
+}
+
+.fa-2 {
+    color: #ffffff;
+    background-color: #9356DC;
+    position: absolute;
+    font-size: large;
+    left: -14px;
+    top: 24px;
+    padding-left: 10px;
+    padding-right: 10PX;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 18px;
+}
+.fa-3 {
+    color: #ffffff;
+    background-color: #9356DC;
+    position: absolute;
+    font-size: large;
+    left: -14px;
+    top: 24px;
+    padding-left: 8px;
+    padding-right: 8PX;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 18px;
+}
+
+
+.fa-mobile-screen-button {
+    color: #b2aeb8;
+    padding-left: 15px;
+}
+
+.button-text {
+    padding-left: 10px;
 }
 
 .main {
@@ -88,6 +178,9 @@ img.restaurant {
     font-size: xx-large;
     padding-top: 8px;
     padding-right: 8px;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
 }
 
 }    
