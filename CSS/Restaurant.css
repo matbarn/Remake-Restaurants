@@ -34,12 +34,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     padding-bottom: 30px;
 }
 
 .explore-title {
-    font-size: xx-large;
     font-weight: bold;
     padding-top: 30px;
 }
@@ -59,8 +58,12 @@
     width: 200px;
     height: 50px;
     border-radius: 30px;
-    box-shadow: 1px 1px 2px 1px #3d3a3a38;
+    box-shadow: 1px 1px 2px 1px #38363638;
+}
 
+.explore-button:hover {
+    background: linear-gradient(0deg, #7b48b9 0%, #ff79da 100%);
+    box-shadow: 1px 1px 2px 1px #3a2341b0;
 }
 
 .guide-menu {
@@ -103,6 +106,30 @@
     border-bottom-right-radius:25px;
     box-shadow: 1px 1px 2px 1px #3d3a3a38;    
 }
+
+
+
+.How-it-works-button:hover {
+    background-color: #f7e9f5;
+    box-shadow: 1px 1px 1px 1px #3a2341b0;
+}
+
+.How-it-works-button:hover .fa-mobile-screen-button {
+    color: #9356DC;
+}
+
+.How-it-works-button:hover .fa-ellipsis-vertical {
+    color: #9356DC;
+}
+
+.How-it-works-button:hover .fa-bars {
+    color: #9356DC;
+}
+
+.How-it-works-button:hover .fa-store {
+    color: #9356DC;
+}
+
 
 .fa-1 {
     color: #ffffff;
@@ -219,6 +246,11 @@
     box-shadow: 1px 1px 2px 1px #3d3a3a38;
 }
 
+.tile:hover {
+    background-color: #f7e9f5;
+    box-shadow: 1px 1px 1px 1px #3a2341b0;
+}
+
 img.restaurant {
     object-fit: cover;
     height: 400PX;
@@ -237,6 +269,10 @@ img.restaurant {
     margin-top: -3px;
 }
 
+.tile:hover .details-container {
+    background-color: #f7e9f5;
+}
+
 .tile-title {
     font-weight: bold;
     padding-left: 8px;
@@ -253,6 +289,24 @@ img.restaurant {
 .like-empty {
     font-size: xx-large;
     padding-top: 8px;
+    padding-right: 8px;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.like-empty:hover {
+    font-size: 0px;
+}
+
+.fa-stack-2 {
+    font-size: 0px;
+}
+
+.like-empty:hover .fa-stack-2 {
+    color: #FF79DA;
+    font-size: xx-large;
+    padding-top: 2px;
     padding-right: 8px;
     height: 32px;
     width: 32px;
