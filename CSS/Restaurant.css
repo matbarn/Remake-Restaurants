@@ -2,7 +2,8 @@
 
 * {
     margin: 0px;
-    font-family: 'Roboto', sans-serif;    text-decoration: none;
+    font-family: 'Roboto', sans-serif;    
+    text-decoration: none;
     color: #000;
 }
 
@@ -69,10 +70,9 @@
 .guide-menu {
     display: flex;
     flex-direction: column;
-    column-gap: 25px;
     align-items: center;
     background-color: #ffffff;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 30px;
     gap: 20px;
 }
@@ -106,8 +106,6 @@
     border-bottom-right-radius:25px;
     box-shadow: 1px 1px 2px 1px #3d3a3a38;    
 }
-
-
 
 .How-it-works-button:hover {
     background-color: #f7e9f5;
@@ -350,8 +348,9 @@ img.restaurant {
     padding-bottom: 20px;
 }
 
-.footer-text {
+.hyper_link {
     color: #ffffff;
+    text-decoration: none;
 }
 
 }    
