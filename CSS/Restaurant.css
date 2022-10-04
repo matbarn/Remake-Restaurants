@@ -315,7 +315,11 @@ img.restaurant {
 }
 
 .like-empty:hover .fa-stack-2 {
-    color: #FF79DA;
+    color: #9c47fc;
+    display: block;
+    background: -webkit-linear-gradient(#9356dc, #ff79da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
     font-size: xx-large;
     padding-top: 2px;
     padding-right: 8px;
