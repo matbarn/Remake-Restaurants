@@ -243,6 +243,7 @@
 }
 
 .tile {
+    position: relative;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -253,6 +254,18 @@
 .tile:hover {
     background-color: #f7e9f5;
     box-shadow: 1px 1px 6px 1px #3a2341b0;
+}
+
+.new {
+    position: absolute;
+    background-color: #99E2D0;
+    top: 10%;
+    right: 10%;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 img.restaurant {
