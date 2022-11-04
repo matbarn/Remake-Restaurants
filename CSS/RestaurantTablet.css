@@ -257,6 +257,7 @@
 }
 
 .new {
+    user-select: none;
     position: absolute;
     background-color: #99E2D0;
     top: 10%;
