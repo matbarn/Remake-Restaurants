@@ -338,6 +338,7 @@ img.restaurant {
     align-items: center;
     height: 265px;
     gap: 0px;
+    padding-bottom: 30px;
 }
 
 .footer-section {
