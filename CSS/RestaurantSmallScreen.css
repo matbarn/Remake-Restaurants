@@ -324,6 +324,7 @@ img.restaurant {
     display: block;
     background: -webkit-linear-gradient(#9356dc, #ff79da);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;    
     font-size: xx-large;
     padding-top: 2px;
